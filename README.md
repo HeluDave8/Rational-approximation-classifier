@@ -29,8 +29,10 @@ The classifier was developed **independently** as part of a special academic res
 ---
 
 ## Project Structure
+
 rational-approximation/
-│
+
+
 ├── main.py # Entry point: runs the full experiment
 
 ├── requirements.txt # Python dependencies
