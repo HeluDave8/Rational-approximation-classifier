@@ -41,11 +41,11 @@ rational-approximation/
 
 ├── src/
 
-│ ├── rational_classifier.py # Class definition
+  ├── rational_classifier.py # Class definition
 
-│ ├── utils.py # Helper functions for polynomial expansion
+  ├── utils.py # Helper functions for polynomial expansion
 
-│ └── optimization.py # LP solver and bisection search
+  └── optimization.py # LP solver and bisection search
 
 
 ---
@@ -56,11 +56,13 @@ rational-approximation/
 
 
 git clone https://github.com/Heludave8/rational-approximation.git
+
 cd rational-approximation
 
 2. Install dependencies:
 
 pip install -r requirements.txt
+
 Requirements include: numpy, scikit-learn, scipy, matplotlib
 
 ### Usage
