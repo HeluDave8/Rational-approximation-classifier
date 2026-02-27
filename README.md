@@ -73,19 +73,27 @@ python main.py
 
 ### What will happen:
 
-Load a subset of the MNIST dataset (default: 2000 samples)
-Normalize features and split into training/test sets
-Apply PCA for dimensionality reduction
-Train the RationalClassifier
-Evaluate the model:Prints accuracy,Prints classification report,shows confusion matrix
-Visualize sample predictions (20 images)
+1.Load a subset of the MNIST dataset (default: 2000 samples)
+
+2.Normalize features and split into training/test sets
+
+3.Apply PCA for dimensionality reduction
+
+4.Train the RationalClassifier
+
+5.Evaluate the model:Prints accuracy,Prints classification report,shows confusion matrix
+
+6.Visualize sample predictions (20 images)
 
 ### Results
 
 All results are saved in the results/ folder:
-confusion_matrix.png → Confusion matrix of predictions
-classification_report.txt → Detailed precision, recall, F1-score
-sample_predictions.png → Sample test images with true vs predicted labels
+
+  * confusion_matrix.png → Confusion matrix of predictions
+  
+  * classification_report.txt → Detailed precision, recall, F1-score
+  
+  * sample_predictions.png → Sample test images with true vs predicted labels
 
 Example accuracy:
 Accuracy: 0.87
@@ -105,16 +113,23 @@ Confusion matrix:
 You can modify:
 
 Subset size in main.py (to reduce computation time)
+
 PCA components: n_components
+
 Rational function degrees: numerator_degree and denominator_degree
+
 classifier = RationalClassifier(numerator_degree=2, denominator_degree=1, n_components=n_components)
 
 ### Key Learnings
 
 How to implement a custom ML algorithm from scratch
+
 Application of linear programming for classification
+
 Use of bisection method for parameter tuning
+
 Dimensionality reduction using PCA for optimization efficiency
+
 Visualization and evaluation of classifier performance
 
 ### References / Inspiration
