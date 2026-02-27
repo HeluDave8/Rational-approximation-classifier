@@ -8,7 +8,7 @@ Unlike standard machine learning models, this classifier models the decision bou
 
 The classifier was developed **independently** as part of a special academic research project, showcasing:
 
-- Mathematical formulation of non-linear classification  
+- Mathematical formulation of non-linear classification
 - Custom optimization using linear programming  
 - Multi-class extension with One-vs-All strategy  
 - PCA-based dimensionality reduction  
