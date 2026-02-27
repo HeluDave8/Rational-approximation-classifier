@@ -32,12 +32,19 @@ The classifier was developed **independently** as part of a special academic res
 rational-approximation/
 │
 ├── main.py # Entry point: runs the full experiment
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md
+
 ├── results/ # Folder where results (plots, reports) are stored
+
 ├── src/
+
 │ ├── rational_classifier.py # Class definition
+
 │ ├── utils.py # Helper functions for polynomial expansion
+
 │ └── optimization.py # LP solver and bisection search
 
 
