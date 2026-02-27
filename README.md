@@ -107,7 +107,7 @@ Accuracy: 0.87
 Sample predictions:
 ![Project Banner](results/sample_predictions.png)
 
-Confusion matrix:
+
 ![Project Banner](results/confusion_matrix.png)
 
 ### Customization
