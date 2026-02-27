@@ -112,25 +112,25 @@ Confusion matrix:
 
 You can modify:
 
-Subset size in main.py (to reduce computation time)
+* Subset size in main.py (to reduce computation time)
 
-PCA components: n_components
+* PCA components: n_components
 
-Rational function degrees: numerator_degree and denominator_degree
+* Rational function degrees: numerator_degree and denominator_degree
 
-classifier = RationalClassifier(numerator_degree=2, denominator_degree=1, n_components=n_components)
+* classifier = RationalClassifier(numerator_degree=2, denominator_degree=1, n_components=n_components)
 
 ### Key Learnings
 
-How to implement a custom ML algorithm from scratch
+* How to implement a custom ML algorithm from scratch
 
-Application of linear programming for classification
+* Application of linear programming for classification
 
-Use of bisection method for parameter tuning
+* Use of bisection method for parameter tuning
 
-Dimensionality reduction using PCA for optimization efficiency
+* Dimensionality reduction using PCA for optimization efficiency
 
-Visualization and evaluation of classifier performance
+* Visualization and evaluation of classifier performance
 
 ### References / Inspiration
 
