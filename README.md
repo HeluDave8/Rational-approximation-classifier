@@ -1,4 +1,4 @@
-# Rational Function-Based Multi-Class Classifier
+# Computer Vision Project:( Rational Function-Based Multi-Class Classifier)
 
 
 ## Overview
