@@ -134,6 +134,8 @@ You can modify:
 
 ### References / Inspiration
 
-MNIST dataset: https://www.openml.org/d/554
-Polynomial approximation techniques
-Linear programming-based optimization
+* MNIST dataset: https://www.openml.org/d/554
+  
+* Polynomial approximation techniques
+  
+* Linear programming-based optimization
